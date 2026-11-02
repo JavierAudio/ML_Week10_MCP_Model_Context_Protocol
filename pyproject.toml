@@ -1,0 +1,17 @@
+[project]
+name = "mle-model-context-protocol"
+version = "0.1.0"
+requires-python = ">=3.13.17"
+dependencies = [
+    "mcp[cli]==2.3.0",
+    "mcp-types==2.3.0",
+    "pydantic>=2.14.1",
+]
+
+[dependency-groups]
+dev = ["ipykernel>=7.4.0"]
+
+[tool.uv]
+required-version = ">=0.13.5"
+# Apply certificate fixes without adding unused runtime packages.
+constraint-dependencies = ["certifi>=2026.10.19", "pip>=26.2.2"]

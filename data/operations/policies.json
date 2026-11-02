@@ -1,0 +1,17 @@
+[
+  {
+    "policy_id": "policy-shipping-delay",
+    "topic": "shipping",
+    "text": "Delayed enterprise shipments require a warehouse check and customer update within 4 business hours."
+  },
+  {
+    "policy_id": "policy-critical-incident",
+    "topic": "incident",
+    "text": "Critical production incidents require incident-command review before external customer commitments."
+  },
+  {
+    "policy_id": "policy-contract-pause",
+    "topic": "billing",
+    "text": "Annual contract pauses are allowed once per contract year for accounts in good standing."
+  }
+]

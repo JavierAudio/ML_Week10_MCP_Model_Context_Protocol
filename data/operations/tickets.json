@@ -1,0 +1,26 @@
+[
+  {
+    "ticket_id": "MCP-1001",
+    "customer": "Mira Stone",
+    "topic": "shipping",
+    "priority": "high",
+    "external_system": "warehouse_api",
+    "summary": "Replacement shipment is blocked because the warehouse export is stale."
+  },
+  {
+    "ticket_id": "MCP-1002",
+    "customer": "Aisha Khan",
+    "topic": "incident",
+    "priority": "critical",
+    "external_system": "incident_db",
+    "summary": "Dashboard export incident affects APAC executive reporting."
+  },
+  {
+    "ticket_id": "MCP-1003",
+    "customer": "Nolan Reed",
+    "topic": "billing",
+    "priority": "medium",
+    "external_system": "billing_api",
+    "summary": "Customer asks whether an annual contract can be paused."
+  }
+]

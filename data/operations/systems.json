@@ -1,0 +1,20 @@
+[
+  {
+    "system_id": "warehouse_api",
+    "kind": "api",
+    "scope": "read:shipments",
+    "safe_operations": ["lookup_order", "read_export_timestamp"]
+  },
+  {
+    "system_id": "incident_db",
+    "kind": "database",
+    "scope": "read:incidents",
+    "safe_operations": ["lookup_incident", "read_status_page"]
+  },
+  {
+    "system_id": "billing_api",
+    "kind": "api",
+    "scope": "read:contracts",
+    "safe_operations": ["lookup_contract", "read_pause_eligibility"]
+  }
+]
